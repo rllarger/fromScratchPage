@@ -1,0 +1,49 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(240, 240, 154);
+    color:rgb(107, 54, 16);
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAKgAswMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAAAQIDBgT/xAAaEAEBAQEBAQEAAAAAAAAAAAAAARESAlFB/8QAGQEBAQEAAwAAAAAAAAAAAAAAAAECAwYH/8QAGBEBAQEBAQAAAAAAAAAAAAAAABESAQL/2gAMAwEAAhEDEQA/APbcmNK8qdlrMi4si4lSs4Y1gUqYY1hIlSs4Y3hhSsYY3hYUrFiY3iFWs4Y1hYtKxYY0UKxictirWMLG2bFq1nBQpXQgrHWCKAEUEQAAAACgAAJYKlUSpWkoqFCqqAKrIANqis9ZUAFARAAAAChQAABKqVQSqlFQoVVQAVkAG1QidZaQigsEi6iAAAAAAAJoLUNFVKi1BQpUUAKqsggNxUIiKqALFZi6iKSpqQI3prKiRbUEFUTS0CoaLFClQAAUrJamqvAAGpTWTVI2M6aiRojMq6DQzpKiNGpUBrRk0Gis6aCiWpqrGjWbUIRbUEVVRNLRV0Z0UWU1jSUixuVdY00hG9WVgIkbNYJUhG9NZ06IRrTWNNIRuprOhFjWmspasI3ams6WkI1ajNqasWN2prNqasWNaM6EI1zTmu3JyzpnTjzSefjvycppNOPNOa7TyuGk04Tzf1eXbDk0aceTl25OTRpx5OXbk5NGnG+fic13wsNGnDml839duTk0unDk5rtfJyul043yl8/Hflnk0aceazzX0YnK6Xnpw4o7cqaXTqofjjcJIuEEQwjUBKmGKIJhigJhigJhigVkxqoqpYi1KvFKilBGcaFVnAAbVCMstCaQGhNXUQDTQAAKFTQUNNASrrNUKi6goUKqoBVVkNQFnpegAnpdADTQQXcOgEOjoAOjoANTQA00FU1NADpm+gUNTQFNAB//2Q==");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    width: 400px;
+    /* could say width: 50% to get the pictures to be 50% of however big your current view of screen is */
+    display: block; 
+    /* practice commenting using control slash!! "block" above meansimages will each appear on new line.
+    px stands for pixel */
+    border: solid 4px black; /*padding is right next to inner content like image, border is outside of
+    padding, margin is outside of border*/
+    padding: 3px;
+    /*margin: 20px;*/
+    margin: auto; /*centers it right and left but not up and down*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a{
+    color:rgb(19, 76, 19)
+}
+
+h3{
+    border: dashed green 2px;
+}
+
+.fav{ /*the period means youre using a class which is like a custom style for some particular part*/
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(2, 43, 2);
+    font-weight: bold;
+    border: black dotted 1.5px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.fav:hover{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    /* text-decoration: line-through; */
+    background-color: lime;
+    color:blanchedalmond;
+    border:rgb(107, 54, 16) 3px solid;
+}
